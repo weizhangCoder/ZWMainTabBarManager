@@ -10,26 +10,25 @@
 		02F5A87E42B90A4DBBEDC4C0F0E4F4E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EC3104E3EEE8E37BB93268E8DBBB61 /* Foundation.framework */; };
 		08B2877B121B6C3FC68BBB9CA2D28A53 /* ZWBaseManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B8327DB367907138275082FB2B664D /* ZWBaseManager.framework */; };
 		12F9E07C1F21DEDC377F89C117BAC01A /* UIView+IBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD278AA11D02AC616A1A2C8E2457500 /* UIView+IBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B9377AC90D739511E662E120661C4A /* back_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D007361366A0D2E5087744155042A1 /* back_button@3x.png */; };
 		1E1092E1C46490648888A827086824CB /* ZWMainTabBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4A9CC2218AD863B14B6FF4629474B /* ZWMainTabBarManager.m */; };
 		22A7F2D04638374A162969C74E612D6B /* ZWMainTabBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B002ABC0A807EDB4FA30D944BDE23E0 /* ZWMainTabBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2819B72F01D0AFE00098B6A80E9EA79E /* UIView+XMGNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E812E700429CBBA41DFB140C86B22B /* UIView+XMGNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B878213BC1185F7EFEF966E672E4378 /* NSString+HSHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 814BAE765BCC683086C838AFB746A239 /* NSString+HSHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DB29F1C86225DA3906A51589128876C /* UIView+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 529A9AA652A76C177872EB9EE6EEBFC0 /* UIView+IBExtension.m */; };
 		2F8B86CCC73CB77184C2EE0ABCEB65B4 /* Pods-ZWMainTabBarManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C91245A70116CAC62632A5FD11A53 /* Pods-ZWMainTabBarManager_Example-dummy.m */; };
+		3D94C78F9A9B4738939E9CEB107EACC3 /* tabbar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A99FDD9021AAAD3D3F7EBEC2E4D5F1 /* tabbar_bg@3x.png */; };
 		3E0C2C17C375099997C81623BD2896AD /* ZWTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8350A49A077FDA9B7A082B213BD1ADC1 /* ZWTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		493B8F9CA7DE133BC47EF4EC4508C36F /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBA01D495D72D1BC4AE2BBFF2C70E39 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C5F6492704E62F1AB19BBCC2ECC11A /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 263E0200B335BE4318B4629522344152 /* UIFont+Extension.m */; };
+		4D9286FE2C814E5155CD179D7A4E7A4C /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A748E60449DEA3DDF6E28B7F16632F /* tabbar_bg@2x.png */; };
 		51F110926BCBEB77BBA22F6F9DAED3D7 /* UIFont+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E63234699DA67DF285220E193B0CF06 /* UIFont+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		595704A4443ECA4CAB19CE7AE1152BBF /* ZWMainTabBarManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CC22A6809FAF5FE4693615BEB09B944 /* ZWMainTabBarManager.bundle */; };
 		5D03062A7D162AE558C6AD7EFBAE2C67 /* Sington.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE395A46C9AE688FD7E110CF6EF01C /* Sington.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D280A8570AEF09A2E068285CA8D705D /* ZWNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD2BA6BD768DD12CF29EBE001C4BE94 /* ZWNavBar.m */; };
 		5F852F1364DCF085A2C04CF3BC6EA629 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F2585746BD9F6DF984BE6B530992B /* UIImage+XMGImage.m */; };
 		5FC5A30B710450DA075172FFD8D8A4A3 /* UIColor+applianceHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31668F0E83ACE1256A1B31EE5A745E /* UIColor+applianceHex.m */; };
-		619DFC4D897C7707DA886E2204DF8E49 /* tabbar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C71AD17E008B09B5305B905C14389F /* tabbar_bg@3x.png */; };
 		711063B801869E3AB723E51E454BE8D2 /* ZWBaseManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4A25D3A4E487043653C63C55F1A7AC /* ZWBaseManager-dummy.m */; };
 		752CE6824BF25FF44B50180659150ED2 /* ZWMainTabBarManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FDB9030237530D522EC837C383B33 /* ZWMainTabBarManager-dummy.m */; };
-		75972C2562B5255F68029CFD7755CCF4 /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B07ADEB26E56BEE3A73F55B1D8583F7D /* back_button@2x.png */; };
 		7B46E2AC0DB9AF3D5F9052F52DE44517 /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C818A9E5E98639553A4AE2E0ADAD0C /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C113C5FED28FCE06581AA698A0AD89E /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BA9A2967BFFE1D63642C5AE0A7364B /* CALayer+PauseAimate.m */; };
 		81E6FD76AC41F9406283541747ECA5E4 /* ZWBaseManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A8D39B5A8A3BE86F50DD103F262CE2 /* ZWBaseManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,17 +42,18 @@
 		A0B44029FA8A5578E02951070A907521 /* Pods-ZWMainTabBarManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3C4B807658738A358B2C1D9C72A4C /* Pods-ZWMainTabBarManager_Tests-dummy.m */; };
 		A2540ED05AA379B2CE405DE8C043A6F0 /* NSArray+HSSafeAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = D3366C4A0D1C6E8A79E0B4A12BEE6061 /* NSArray+HSSafeAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A59081A51836D20B93135910F5DF6859 /* ZWMainTabBarManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F198A8D2247713A936C74781D0CE1623 /* ZWMainTabBarManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9049D1D4CFB0EF8A29C3E7A89158A3D /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D152CC4A75377A5C05DF8CA49EBDE6AE /* tabbar_bg@2x.png */; };
 		B0C7404A5C49F18C88D2390435E70EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EC3104E3EEE8E37BB93268E8DBBB61 /* Foundation.framework */; };
 		B65CFF799C502326DC6AE5CF7116D1DC /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A94537A0AB870713A1570668DAA52674 /* UIView+XMGLayout.m */; };
 		BDE4ECF3DC03BF3D8FB4A4AE2E38B88E /* ZWNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 201F6B8B2F5DACCBA125EF5236F86C09 /* ZWNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7E014BAC6A383671BB5B558C07DDE33 /* UIColor+applianceHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 73244045E06E23BB4F34336D361E5F79 /* UIColor+applianceHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0193ED07BE7169CA7C4199FF102F290 /* UIView+XMGNib.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A9B2B2D1BFEFD9DD2F04CA21FFDB6 /* UIView+XMGNib.m */; };
 		D545A8B72E102E55CFE73B24564962A7 /* Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FE9F698787286BE0C83F98972D664F /* Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD99A4C722FD33BFDAD3698F1C71AEE /* btn_back_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B442E1378D1733BE4E6BE40ECD5509 /* btn_back_n@3x.png */; };
 		DFB1AE9CFF79A822652AA20C8A9529CB /* ZWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04C83F92AD1843D6D490EDAB5B300F /* ZWTabBar.m */; };
 		E95DE582E38519926E2CC2DFD6E48D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EC3104E3EEE8E37BB93268E8DBBB61 /* Foundation.framework */; };
 		EA5A5237B85B93276A908DCBC57109EC /* ZWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6519D2BE4EFFE08760A7CEBE938E0876 /* ZWNavigationController.m */; };
 		EFD54F5A161C4F4127734CBB79196B8F /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E3BA51BE4CB90A85DE88E59235F6F /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28DFE90B5044129E35DC9D1A6B0C186 /* btn_back_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E160745B1BE5A0777D829E16C3BE87E8 /* btn_back_n@2x.png */; };
 		F7462CCD315C87C29721E02F13681C5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EC3104E3EEE8E37BB93268E8DBBB61 /* Foundation.framework */; };
 		FA9CD4F7DDBB5ECD18266E58368F79FC /* ZWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D72A1895BEAC2998D6B519AE407F2 /* ZWTabBarController.m */; };
 		FE18E82B6E684AB490B96A7537997380 /* NSString+HSHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 89780B911AC4AECA0C180688CA8EADCE /* NSString+HSHeight.m */; };
@@ -104,6 +104,7 @@
 		2C4139FDD9E6F12FF8DE10A622186584 /* ZWBaseManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWBaseManager-prefix.pch"; sourceTree = "<group>"; };
 		2C47FE197848BC2DFFBA8E59AB318EA5 /* ZWBaseManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWBaseManager.xcconfig; sourceTree = "<group>"; };
 		2EED3E0C18AB5E2B96787EBC15390A6A /* Pods_ZWMainTabBarManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZWMainTabBarManager_Tests.framework; path = "Pods-ZWMainTabBarManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A748E60449DEA3DDF6E28B7F16632F /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar_bg@2x.png"; sourceTree = "<group>"; };
 		42A4A9CC2218AD863B14B6FF4629474B /* ZWMainTabBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZWMainTabBarManager.m; sourceTree = "<group>"; };
 		42F60FD180C694E9B407312D141A3909 /* Pods-ZWMainTabBarManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWMainTabBarManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44EA2C36607F0D0515A84A935DE5AF08 /* ZWMainTabBarManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZWMainTabBarManager.framework; path = ZWMainTabBarManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,21 +142,20 @@
 		A75E0EA2A93FA41666F45F80B6889D02 /* ZWBaseManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZWBaseManager.framework; path = ZWBaseManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C818A9E5E98639553A4AE2E0ADAD0C /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMGImage.h"; path = "ZWBaseManager/Classes/Category/UIImage+XMGImage.h"; sourceTree = "<group>"; };
 		A94537A0AB870713A1570668DAA52674 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGLayout.m"; path = "ZWBaseManager/Classes/Category/UIView+XMGLayout.m"; sourceTree = "<group>"; };
-		B07ADEB26E56BEE3A73F55B1D8583F7D /* back_button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "back_button@2x.png"; sourceTree = "<group>"; };
 		B5B8327DB367907138275082FB2B664D /* ZWBaseManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZWBaseManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F74023927FC44C4525D3983F0B5A4E /* Pods-ZWMainTabBarManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZWMainTabBarManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		BCD2BA6BD768DD12CF29EBE001C4BE94 /* ZWNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZWNavBar.m; sourceTree = "<group>"; };
 		C14A9B2B2D1BFEFD9DD2F04CA21FFDB6 /* UIView+XMGNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGNib.m"; path = "ZWBaseManager/Classes/Category/UIView+XMGNib.m"; sourceTree = "<group>"; };
 		C8654F0D186EE937C9791A55C9246E42 /* ZWMainTabBarManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWMainTabBarManager.xcconfig; sourceTree = "<group>"; };
-		C8C71AD17E008B09B5305B905C14389F /* tabbar_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar_bg@3x.png"; sourceTree = "<group>"; };
-		D0D007361366A0D2E5087744155042A1 /* back_button@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "back_button@3x.png"; sourceTree = "<group>"; };
-		D152CC4A75377A5C05DF8CA49EBDE6AE /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar_bg@2x.png"; sourceTree = "<group>"; };
 		D2D2676C5CEFC3CAE7DABD16D57CA682 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3366C4A0D1C6E8A79E0B4A12BEE6061 /* NSArray+HSSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HSSafeAccess.h"; path = "ZWBaseManager/Classes/Category/NSArray+HSSafeAccess.h"; sourceTree = "<group>"; };
+		D5A99FDD9021AAAD3D3F7EBEC2E4D5F1 /* tabbar_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar_bg@3x.png"; sourceTree = "<group>"; };
 		D67459205CB50151F8FF12597D8D26B8 /* Pods-ZWMainTabBarManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWMainTabBarManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7A8D39B5A8A3BE86F50DD103F262CE2 /* ZWBaseManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWBaseManager-umbrella.h"; sourceTree = "<group>"; };
 		D8C7A10F7782EB6AD03C7A49EE1248E1 /* Pods_ZWMainTabBarManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZWMainTabBarManager_Example.framework; path = "Pods-ZWMainTabBarManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1C23D9750F98A4BAE2205EDFDB5B36 /* ResourceBundle-ZWMainTabBarManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZWMainTabBarManager-Info.plist"; sourceTree = "<group>"; };
+		E160745B1BE5A0777D829E16C3BE87E8 /* btn_back_n@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "btn_back_n@2x.png"; sourceTree = "<group>"; };
+		E2B442E1378D1733BE4E6BE40ECD5509 /* btn_back_n@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "btn_back_n@3x.png"; sourceTree = "<group>"; };
 		E492AC341558838597EAD52F73358953 /* Pods-ZWMainTabBarManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZWMainTabBarManager_Example.modulemap"; sourceTree = "<group>"; };
 		E6035F0C2531EF899984ED0F70E72691 /* NSArray+HSSafeAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HSSafeAccess.m"; path = "ZWBaseManager/Classes/Category/NSArray+HSSafeAccess.m"; sourceTree = "<group>"; };
 		E78A5EEFDDFBB848A1E3402B7F05DE9C /* ZWMainTabBarManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWMainTabBarManager-prefix.pch"; sourceTree = "<group>"; };
@@ -230,6 +230,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		491DB6C7D062DD82903CD40385713D81 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E160745B1BE5A0777D829E16C3BE87E8 /* btn_back_n@2x.png */,
+				E2B442E1378D1733BE4E6BE40ECD5509 /* btn_back_n@3x.png */,
+				38A748E60449DEA3DDF6E28B7F16632F /* tabbar_bg@2x.png */,
+				D5A99FDD9021AAAD3D3F7EBEC2E4D5F1 /* tabbar_bg@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		4DB01B0F101C960A8D76E064877237BA /* Pods-ZWMainTabBarManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,7 +263,7 @@
 		52B5933C9973CC6643D31E4EDCC9BBDE /* ZWMainTabBarManager */ = {
 			isa = PBXGroup;
 			children = (
-				FE7C094EEA34A2C4859FED9BD54579E5 /* Assets */,
+				491DB6C7D062DD82903CD40385713D81 /* Assets */,
 			);
 			name = ZWMainTabBarManager;
 			path = ZWMainTabBarManager;
@@ -447,18 +459,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FE7C094EEA34A2C4859FED9BD54579E5 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				B07ADEB26E56BEE3A73F55B1D8583F7D /* back_button@2x.png */,
-				D0D007361366A0D2E5087744155042A1 /* back_button@3x.png */,
-				D152CC4A75377A5C05DF8CA49EBDE6AE /* tabbar_bg@2x.png */,
-				C8C71AD17E008B09B5305B905C14389F /* tabbar_bg@3x.png */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -539,7 +539,7 @@
 			buildPhases = (
 				DA816D6E8433208A69236C475E0EEBD6 /* Sources */,
 				688C8B2078E26A8B0EC2C0D76ADF238B /* Frameworks */,
-				DB30964F67088147755FDB69D4DAB5E9 /* Resources */,
+				3810A73A0369B451C11346152047C7A7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -643,14 +643,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB30964F67088147755FDB69D4DAB5E9 /* Resources */ = {
+		3810A73A0369B451C11346152047C7A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75972C2562B5255F68029CFD7755CCF4 /* back_button@2x.png in Resources */,
-				18B9377AC90D739511E662E120661C4A /* back_button@3x.png in Resources */,
-				A9049D1D4CFB0EF8A29C3E7A89158A3D /* tabbar_bg@2x.png in Resources */,
-				619DFC4D897C7707DA886E2204DF8E49 /* tabbar_bg@3x.png in Resources */,
+				F28DFE90B5044129E35DC9D1A6B0C186 /* btn_back_n@2x.png in Resources */,
+				DCD99A4C722FD33BFDAD3698F1C71AEE /* btn_back_n@3x.png in Resources */,
+				4D9286FE2C814E5155CD179D7A4E7A4C /* tabbar_bg@2x.png in Resources */,
+				3D94C78F9A9B4738939E9CEB107EACC3 /* tabbar_bg@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
