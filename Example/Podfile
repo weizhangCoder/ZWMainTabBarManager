@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZWMainTabBarManager_Example' do
+  pod 'ZWMainTabBarManager', :path => '../'
+
+  target 'ZWMainTabBarManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
