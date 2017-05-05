@@ -1,0 +1,6 @@
+framework module ZWMainTabBarManager {
+  umbrella header "ZWMainTabBarManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

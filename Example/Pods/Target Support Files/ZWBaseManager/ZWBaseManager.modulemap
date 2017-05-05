@@ -1,0 +1,6 @@
+framework module ZWBaseManager {
+  umbrella header "ZWBaseManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
