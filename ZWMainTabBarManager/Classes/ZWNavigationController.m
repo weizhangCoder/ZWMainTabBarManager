@@ -27,13 +27,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    UIGestureRecognizer *gester = self.interactivePopGestureRecognizer;
+    //拿到navigationController原有的pop手势
+    UIGestureRecognizer *gesture = self.interactivePopGestureRecognizer;
+    //将自有手势停用
+    gesture.enabled = NO;
+    //拿到手势的view
+    UIView *gestureView = gesture.view;
     
-    UIPanGestureRecognizer *panGester = [[UIPanGestureRecognizer alloc]initWithTarget:gester.delegate action:NSSelectorFromString(@"handleNavigationTransition")];
-    [gester.view addGestureRecognizer:panGester];
-    gester.delaysTouchesBegan = YES;
-    panGester.delegate = self;
+    //创建一个自己的手势
+    UIPanGestureRecognizer *popRecognizer = [[UIPanGestureRecognizer alloc] init];
+    popRecognizer.delegate = self;
+    popRecognizer.maximumNumberOfTouches = 1;
+    //将自己创建的手势放到原有手势的view上
+    [gestureView addGestureRecognizer:popRecognizer];
+    
+    //获取系统的手势的target数组
+    NSMutableArray *_targets = [gesture valueForKey:@"_targets"];
+    //获取它的唯一对象 有一个叫UIGestureRecognizerTarget的私有类,有一个属性叫_target
+    id gestureRecognizerTarget = [_targets firstObject];
+    //获取_target:_UINavigationInteractiveTransition 有一个方法叫handleNavigationTranstion
+    id navigationInteractiveTransition = [gestureRecognizerTarget valueForKey:@"_target"];
+    //从控制台获取出他的方法签名
+    SEL handelTransition = NSSelectorFromString(@"handleNavigationTransition:");
+    //创建一个与系统一毛一样的手势 我们只把他的类改为UIPanGestureRecognizer
+    [popRecognizer addTarget:navigationInteractiveTransition action:handelTransition];
+
 
 }
 #pragma mark - UIGestureRecognizerDelegate
@@ -72,8 +90,9 @@
         NSString *imagePath = [NSString stringWithFormat:@"%@@%@x.png", @"btn_back_n", @([UIScreen mainScreen].scale)];
         
         NSString *path = [containingBundle pathForResource:imagePath ofType:nil inDirectory:bundleName];
+        UIImage *imageBack = [UIImage  imageWithContentsOfFile:path];
         //统一设置返回按钮
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage  imageWithContentsOfFile:path] style:0 target:self action:@selector(back)];
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[imageBack imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:0 target:self action:@selector(back)];
         viewController.hidesBottomBarWhenPushed = YES;
     }
     

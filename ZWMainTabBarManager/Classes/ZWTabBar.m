@@ -30,7 +30,8 @@
     NSString *imagePath = [NSString stringWithFormat:@"%@@%@x.png", @"tabbar_bg", @([UIScreen mainScreen].scale)];
     
     NSString *path = [containingBundle pathForResource:imagePath ofType:nil inDirectory:bundleName];
-    self.backgroundImage  = [UIImage imageWithContentsOfFile:path];
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+    self.backgroundImage  = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
  
 }
