@@ -1,6 +1,6 @@
 {
   "name": "ZWMainTabBarManager",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "App main ZWMainTabBarManager.",
   "description": "TODO: App main ZWMainTabBarManager.",
   "homepage": "https://github.com/weizhangCoder/ZWMainTabBarManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/weizhangCoder/ZWMainTabBarManager.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"

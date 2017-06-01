@@ -4,7 +4,7 @@ PODS:
     - ZWBaseManager/Category (= 0.1.3)
   - ZWBaseManager/Base (0.1.3)
   - ZWBaseManager/Category (0.1.3)
-  - ZWMainTabBarManager (0.1.5):
+  - ZWMainTabBarManager (0.1.6):
     - ZWBaseManager
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ZWBaseManager: 33b323f231b7111004616e986099ffebd8d19adc
-  ZWMainTabBarManager: 1310adcbb1527c4987f09b5abea24e4718c8f7a0
+  ZWMainTabBarManager: 76d4b0318b25d53a8738e65a93789050d4a46f2c
 
 PODFILE CHECKSUM: 74b30b6440a015e4827e5b5b5945f4a18c8c3523
 

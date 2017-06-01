@@ -27,6 +27,8 @@
  */
 + (void)addChildVC:(UIViewController *)vc normalImageName:(NSString *)normalImageName selectedImageName:(NSString *)selectedImageName isRequiredNavController:(BOOL)isRequired;
 
+
++ (void)addChildVC:(NSArray *)param;
 /**
  *  设置全局的导航栏背景图片
  *

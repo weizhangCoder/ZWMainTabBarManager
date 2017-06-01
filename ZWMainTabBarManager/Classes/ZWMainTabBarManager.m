@@ -24,7 +24,16 @@
     
 }
 
-
++ (void)addChildVC:(NSArray *)param {
+    
+    UIViewController *vc = param[0];
+    NSString *nImg = param[1];
+    NSString *sImg = param[2];
+    BOOL isRe = [param[3] boolValue];
+    
+    [self addChildVC:vc normalImageName:nImg selectedImageName:sImg isRequiredNavController:isRe];
+    
+}
 
 /**
  *  设置全局的导航栏背景图片
